@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>ACCRETION — VR Space Dogfight</title>
+  <meta name="description" content="ACCRETION — a VR space dogfight simulator for Meta Quest. Intense cockpit combat in procedurally generated space.">
+  <meta name="author" content="Paul Carter">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0a0a0f">
+  <link rel="canonical" href="https://accretion-site.pages.dev/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ACCRETION — VR Space Dogfight">
+  <meta property="og:description" content="VR space dogfight simulator for Meta Quest. Intense cockpit combat.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/images/og-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ACCRETION — VR Space Dogfight">
+  <meta name="twitter:description" content="VR space dogfight simulator for Meta Quest.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <!-- Star field background -->
+  <div id="stars" aria-hidden="true"></div>
+
+  <div class="page-shell">
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="logo">
+        <span class="logo-text">ACCRETION</span>
+        <span class="logo-sub">VR Space Dogfight</span>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="site-main">
+      <!-- VIDEO SECTION -->
+      <section class="video-section">
+        <div class="video-wrapper" id="videoWrapper">
+          <!-- Placeholder / poster before play -->
+          <div class="video-poster" id="videoPoster">
+            <div class="play-btn" id="playBtn">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="38" stroke="white" stroke-width="2" opacity="0.6"/>
+                <polygon points="32,24 58,40 32,56" fill="white"/>
+              </svg>
+            </div>
+          </div>
+          <!-- YouTube embed loads here -->
+          <div id="ytContainer"></div>
+        </div>
+      </section>
+
+      <!-- CTA SECTION -->
+      <section class="cta-section">
+        <a href="https://discord.gg/accretion" target="_blank" rel="noopener" class="btn btn-discord" id="discordBtn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.566 18.566 0 0 0-5.487 0 12.36 12.36 0 0 0-.617-1.23A.077.077 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.07.07 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055 20.03 20.03 0 0 0 5.993 2.98.078.078 0 0 0 .084-.026 13.83 13.83 0 0 0 1.226-1.963.074.074 0 0 0-.041-.104 13.175 13.175 0 0 1-1.872-.878.075.075 0 0 1-.008-.125c.126-.093.252-.19.372-.287a.075.075 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.075.075 0 0 1 .079.009c.12.098.245.195.372.288a.075.075 0 0 1-.006.125c-.598.344-1.22.635-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.077.077 0 0 0 .084.028 19.963 19.963 0 0 0 6.002-2.981.076.076 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.028zM8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38 0-1.312.956-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.956 2.38-2.157 2.38zm7.975 0c-1.183 0-2.157-1.069-2.157-2.38 0-1.312.955-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.946 2.38-2.157 2.38z"/></svg>
+          <span>Join Discord</span>
+        </a>
+
+        <a href="#" class="btn btn-wishlist" id="wishlistBtn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6zm7 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/><path d="M8 13h3v1.5H8V13zm0 3h8v1.5H8V16zm0-6h3v1.5H8V10z"/></svg>
+          <span>Wishlist on Quest Store</span>
+          <span class="badge-soon">SOON</span>
+        </a>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <a href="mailto:contact@accretion.game" class="footer-link">contact@accretion.game</a>
+      <span class="footer-sep">·</span>
+      <a href="https://t.me/pawozakwa" target="_blank" rel="noopener" class="footer-link">Telegram</a>
+      <span class="footer-sep">·</span>
+      <span class="footer-copy">&copy; 2026 Paul Carter</span>
+    </footer>
+  </div>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>
