@@ -1,0 +1,24 @@
+{
+  "name": "accretion-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawozakwa/accretion-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawozakwa/accretion-site/issues"
+  },
+  "homepage": "https://github.com/pawozakwa/accretion-site#readme",
+  "dependencies": {
+    "playwright": "^1.60.0",
+    "sharp": "^0.34.5"
+  }
+}
