@@ -42,6 +42,12 @@ if (poster) {
     iframe.allowFullscreen = true;
     iframe.setAttribute('allow', 'autoplay');
     ytContainer.appendChild(iframe);
+
+    // Fade out sound reminder 3 seconds after play
+    const reminder = document.getElementById('soundReminder');
+    if (reminder && !reminder.classList.contains('hidden')) {
+      setTimeout(() => { reminder.classList.add('hidden'); }, 3000);
+    }
   }
 
   // Try autoplay immediately
