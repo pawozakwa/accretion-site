@@ -55,7 +55,7 @@
 
         <h2>Contact</h2>
         <p>If you have questions about this Privacy Policy or want to make a privacy request, contact us at:</p>
-        <p class="legal-contact"><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a></p>
+        <p class="legal-contact"><!--email_off--><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a><!--/email_off--></p>
 
         <h2>Information We Collect</h2>
         <p>We collect only the information needed to operate the website, provide support, improve stability, and operate game services.</p>
@@ -115,7 +115,7 @@
         <h2>Your Choices and Rights</h2>
         <p>Depending on your location, you may have rights to access, correct, delete, restrict, or object to the processing of your personal information.</p>
         <p>To make a request, contact us at:</p>
-        <p class="legal-contact"><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a></p>
+        <p class="legal-contact"><!--email_off--><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a><!--/email_off--></p>
         <p>We may need to verify your request before acting on it.</p>
         <p>You can also manage platform-level information, purchases, permissions, and privacy settings through your Meta account and Meta Quest device settings.</p>
 
@@ -153,7 +153,7 @@
         </a>
       </div>
       <div class="footer-contact">
-        <a href="mailto:paulwcarter.dev@gmail.com" class="footer-link">paulwcarter.dev@gmail.com</a>
+        <!--email_off--><a href="mailto:paulwcarter.dev@gmail.com" class="footer-link">paulwcarter.dev@gmail.com</a><!--/email_off-->
         <span class="footer-sep">·</span>
         <span class="footer-copy">&copy; 2026 Paul Carter</span>
       </div>

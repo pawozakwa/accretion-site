@@ -51,7 +51,7 @@
         <h1>Support</h1>
         <p class="legal-intro">Need help with ACCRETION?</p>
         <p>Contact us at:</p>
-        <p class="legal-contact"><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a></p>
+        <p class="legal-contact"><!--email_off--><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a><!--/email_off--></p>
 
         <h2>When reporting a bug, please include:</h2>
         <ul>
@@ -96,7 +96,7 @@
         </a>
       </div>
       <div class="footer-contact">
-        <a href="mailto:paulwcarter.dev@gmail.com" class="footer-link">paulwcarter.dev@gmail.com</a>
+        <!--email_off--><a href="mailto:paulwcarter.dev@gmail.com" class="footer-link">paulwcarter.dev@gmail.com</a><!--/email_off-->
         <span class="footer-sep">·</span>
         <span class="footer-copy">&copy; 2026 Paul Carter</span>
       </div>
