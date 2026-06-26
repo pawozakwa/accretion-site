@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" class="legal-doc">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Privacy Policy | ACCRETION</title>
+  <meta name="description" content="Privacy Policy for ACCRETION, the ACCRETION website, support channels, Meta Quest platform services, diagnostics, and multiplayer functionality.">
+  <meta name="author" content="Paul Carter">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0a0a0f">
+  <link rel="canonical" href="https://accretionvr.com/privacy">
+  <meta property="og:title" content="Privacy Policy | ACCRETION">
+  <meta property="og:description" content="Privacy Policy for ACCRETION, the ACCRETION website, support channels, Meta Quest platform services, diagnostics, and multiplayer functionality.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://accretionvr.com/privacy">
+  <meta property="og:site_name" content="ACCRETION VR">
+  <meta property="og:image" content="https://accretionvr.com/images/logo.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Privacy Policy | ACCRETION">
+  <meta name="twitter:description" content="Privacy Policy for ACCRETION, the ACCRETION website, support channels, Meta Quest platform services, diagnostics, and multiplayer functionality.">
+  <meta name="twitter:image" content="https://accretionvr.com/images/logo.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <div id="stars" aria-hidden="true"></div>
+
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="logo">
+        <img 
+          src="/images/logo-sm.webp"
+          srcset="/images/logo-sm.webp 640w, /images/logo.webp 1280w"
+          sizes="(max-width: 640px) 100vw, 640px"
+          alt="ACCRETION - Paul W. Carter's VR Space Dogfight"
+          class="logo-img"
+          width="640" height="427"
+          loading="eager"
+          decoding="async"
+        >
+        <span class="logo-tagline">VR SPACE DOGFIGHT</span>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <article class="legal-content">
+        <a href="/" class="legal-nav-back">Back to ACCRETION</a>
+        <div class="legal-kicker">ACCRETION</div>
+        <h1>Privacy Policy</h1>
+        <p class="legal-updated">Last updated: June 26, 2026</p>
+        <p class="legal-intro">This Privacy Policy explains how Paul Carter (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) collects, uses, and protects information in connection with ACCRETION, the ACCRETION website, and related support channels.</p>
+        <p>ACCRETION is a standalone virtual reality space dogfighting game for Meta Quest.</p>
+
+        <h2>Contact</h2>
+        <p>If you have questions about this Privacy Policy or want to make a privacy request, contact us at:</p>
+        <p class="legal-contact"><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a></p>
+
+        <h2>Information We Collect</h2>
+        <p>We collect only the information needed to operate the website, provide support, improve stability, and operate game services.</p>
+        <p>Depending on how you use ACCRETION, we may process the following categories of information:</p>
+
+        <h3>Website information</h3>
+        <p>When you visit the ACCRETION website, our hosting provider may process standard technical information such as IP address, browser type, device type, pages visited, timestamps, and server logs. This is used to operate, secure, and troubleshoot the website.</p>
+
+        <h3>Support information</h3>
+        <p>If you contact us for support, we may process your email address, name or display name, message content, attachments, device information, bug reports, crash details, and any other information you choose to provide.</p>
+
+        <h3>Meta platform information</h3>
+        <p>ACCRETION is distributed through Meta Horizon / Meta Quest services. Meta may provide platform features such as account identity, entitlement checks, store functionality, wishlist functionality, purchases, achievements, platform services, and analytics. We do not receive your payment card information from Meta.</p>
+        <p>Meta&rsquo;s processing of user data is governed by Meta&rsquo;s own privacy policies and platform terms.</p>
+
+        <h3>Multiplayer and gameplay service information</h3>
+        <p>If ACCRETION uses online or multiplayer functionality, technical information may be processed to operate online sessions, matchmaking, networking, latency measurement, session stability, security, and diagnostics. This may include player display names or identifiers, session identifiers, region information, device/network information, gameplay session information, crash reports, logs, and connection data.</p>
+        <p>Online networking services may process technical data such as IP addresses and connection metadata as necessary to provide multiplayer connectivity.</p>
+
+        <h3>Diagnostics and crash information</h3>
+        <p>We may process diagnostic information, logs, crash reports, performance data, device model, app version, operating system version, and error details to improve stability and fix bugs.</p>
+
+        <h2>How We Use Information</h2>
+        <p>We use information to:</p>
+        <ul>
+          <li>operate ACCRETION and the ACCRETION website;</li>
+          <li>provide gameplay, online, and multiplayer functionality;</li>
+          <li>respond to support requests;</li>
+          <li>diagnose crashes, bugs, networking issues, and performance problems;</li>
+          <li>improve game stability and user experience;</li>
+          <li>protect the game, services, and users from abuse, cheating, fraud, and security incidents;</li>
+          <li>comply with legal, platform, and safety obligations.</li>
+        </ul>
+
+        <h2>What We Do Not Do</h2>
+        <p>We do not sell personal information.</p>
+        <p>We do not use personal information for third-party advertising.</p>
+        <p>We do not intentionally collect sensitive personal information such as precise location, health information, financial account information, government identifiers, or biometric identifiers.</p>
+        <p>We do not knowingly collect personal information from children under 13.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>ACCRETION may rely on third-party services to operate the website, platform features, online services, support, hosting, diagnostics, and distribution. These may include:</p>
+        <ul>
+          <li>Meta Platforms Technologies / Meta Horizon services;</li>
+          <li>online multiplayer or networking providers;</li>
+          <li>website hosting providers;</li>
+          <li>email and support communication providers;</li>
+          <li>crash reporting or diagnostics providers, if enabled.</li>
+        </ul>
+        <p>These providers process information only as needed to provide their services to us or to you.</p>
+
+        <h2>Data Retention</h2>
+        <p>We keep information only for as long as reasonably necessary for the purposes described in this Privacy Policy, including operating the game and website, providing support, improving stability, resolving disputes, preventing abuse, and complying with legal obligations.</p>
+        <p>Support messages may be retained for as long as needed to resolve the issue and maintain support history.</p>
+        <p>Server logs and diagnostic data are generally retained for a limited period unless longer retention is needed for security, debugging, legal, or operational reasons.</p>
+
+        <h2>Your Choices and Rights</h2>
+        <p>Depending on your location, you may have rights to access, correct, delete, restrict, or object to the processing of your personal information.</p>
+        <p>To make a request, contact us at:</p>
+        <p class="legal-contact"><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a></p>
+        <p>We may need to verify your request before acting on it.</p>
+        <p>You can also manage platform-level information, purchases, permissions, and privacy settings through your Meta account and Meta Quest device settings.</p>
+
+        <h2>International Processing</h2>
+        <p>Your information may be processed in countries other than your country of residence. Where required, we use appropriate safeguards for international data transfers.</p>
+
+        <h2>Security</h2>
+        <p>We use reasonable technical and organizational measures to protect information. However, no online service can be guaranteed to be completely secure.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. When we make changes, we will update the &ldquo;Last updated&rdquo; date at the top of this page.</p>
+
+        <h2>Summary</h2>
+        <p>ACCRETION uses only the information needed to operate the website, provide support, run platform and multiplayer functionality, improve stability, and protect the service. We do not sell personal information or use it for third-party advertising.</p>
+
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-socials">
+        <a href="https://discord.gg/WN5d4R5wzD" target="_blank" rel="noopener" class="footer-social" aria-label="Discord" title="Discord">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.566 18.566 0 0 0-5.487 0 12.36 12.36 0 0 0-.617-1.23A.077.077 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.07.07 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055 20.03 20.03 0 0 0 5.993 2.98.078.078 0 0 0 .084-.026 13.83 13.83 0 0 0 1.226-1.963.074.074 0 0 0-.041-.104 13.175 13.175 0 0 1-1.872-.878.075.075 0 0 1-.008-.125c.126-.093.252-.19.372-.287a.075.075 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.075.075 0 0 1 .079.009c.12.098.245.195.372.288a.075.075 0 0 1-.006.125c-.598.344-1.22.635-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.077.077 0 0 0 .084.028 19.963 19.963 0 0 0 6.002-2.981.076.076 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.028zM8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38 0-1.312.956-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.956 2.38-2.157 2.38zm7.975 0c-1.183 0-2.157-1.069-2.157-2.38 0-1.312.955-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.946 2.38-2.157 2.38z"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@PaulW.Carter?sub_confirmation=1" target="_blank" rel="noopener" class="footer-social" aria-label="YouTube" title="YouTube">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/accretiongame/" target="_blank" rel="noopener" class="footer-social" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/people/Accretion-VR-Space-Dogfight/61589808717516/" target="_blank" rel="noopener" class="footer-social" aria-label="Facebook" title="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="https://t.me/pawozakwa" target="_blank" rel="noopener" class="footer-social" aria-label="Telegram" title="Telegram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+        </a>
+      </div>
+      <div class="footer-contact">
+        <a href="mailto:paulwcarter.dev@gmail.com" class="footer-link">paulwcarter.dev@gmail.com</a>
+        <span class="footer-sep">·</span>
+        <span class="footer-copy">&copy; 2026 Paul Carter</span>
+      </div>
+      <nav class="footer-legal" aria-label="Legal and support links">
+        <a href="/privacy" class="footer-link">Privacy Policy</a>
+        <span class="footer-sep">·</span>
+        <a href="/support" class="footer-link">Support</a>
+        <span class="footer-sep">·</span>
+        <a href="/terms" class="footer-link">Terms</a>
+      </nav>
+    </footer>
+  </div>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>
