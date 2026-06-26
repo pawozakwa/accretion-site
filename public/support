@@ -53,7 +53,19 @@
         <p>Contact us at:</p>
         <p class="legal-contact"><!--email_off--><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a><!--/email_off--></p>
 
-        <h2>When reporting a bug, please include:</h2>
+        <div class="legal-summary-grid" aria-label="Support summary">
+          <div class="legal-summary-card"><strong>Bug reports</strong><span>Send device model, app version, what happened, and whether you were solo or online.</span></div>
+          <div class="legal-summary-card"><strong>VR comfort</strong><span>If you feel discomfort, stop playing, remove the headset, and rest.</span></div>
+          <div class="legal-summary-card"><strong>Privacy</strong><span>Use the Privacy Policy page for privacy-related requests.</span></div>
+        </div>
+
+        <nav class="legal-toc" aria-label="Support sections">
+          <a href="#bug-report">Bug report details</a>
+          <a href="#common-topics">Common topics</a>
+          <a href="#privacy-requests">Privacy requests</a>
+        </nav>
+
+        <h2 id="bug-report">When reporting a bug, please include:</h2>
         <ul>
           <li>your Meta Quest device model;</li>
           <li>app version, if visible;</li>
@@ -63,16 +75,15 @@
           <li>screenshots, video, or logs if available.</li>
         </ul>
 
-        <h2>Common topics</h2>
+        <h2 id="common-topics">Common topics</h2>
         <h3>The game feels intense in VR</h3>
         <p>ACCRETION is a fast 6DOF VR space dogfighting game. If you feel discomfort, stop playing, remove the headset, and rest.</p>
 
         <h3>Multiplayer issues</h3>
         <p>If you experience connection problems, include your region, whether you were hosting or joining, and whether the issue happened before, during, or after a match.</p>
 
-        <h3>Privacy requests</h3>
-        <p>For privacy-related requests, use the contact information in the Privacy Policy:</p>
-        <p><a href="/privacy">/privacy</a></p>
+        <h3 id="privacy-requests">Privacy requests</h3>
+        <p>For privacy-related requests, use the contact information on the <a href="/privacy">Privacy Policy page</a>.</p>
 
       </article>
     </main>

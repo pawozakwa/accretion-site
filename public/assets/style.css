@@ -256,6 +256,16 @@ a:focus-visible {
 
 .btn:active { transform: scale(0.97); }
 
+.btn-disabled,
+.btn-disabled:hover,
+.btn-disabled:focus-visible,
+.btn-disabled:active {
+  cursor: default;
+  opacity: 0.68;
+  transform: none;
+  box-shadow: none;
+}
+
 .btn-icon {
   width: 22px;
   height: 22px;
@@ -360,6 +370,8 @@ a:focus-visible {
 }
 
 .footer-link {
+  display: inline-flex;
+  align-items: center;
   color: var(--text-dim);
   transition: color 0.2s;
 }
@@ -372,11 +384,16 @@ a:focus-visible {
 .footer-copy { opacity: 0.4; }
 
 /* ===== LEGAL / SUPPORT PAGES ===== */
-.legal-doc,
-.legal-doc body {
+html.legal-doc,
+html.legal-doc body {
   min-height: 100%;
   height: auto;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+html.legal-doc body {
+  -webkit-overflow-scrolling: touch;
 }
 
 .legal-doc .page-shell {
@@ -385,6 +402,14 @@ a:focus-visible {
   height: auto;
   max-width: 900px;
   padding-bottom: 28px;
+}
+
+.legal-doc .site-header {
+  padding-bottom: 6px;
+}
+
+.legal-doc .logo-img {
+  max-height: 128px;
 }
 
 .legal-doc .site-main {
@@ -432,9 +457,12 @@ a:focus-visible {
 }
 
 .legal-content h2 {
-  margin: 30px 0 12px;
+  margin: 34px 0 12px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(123, 92, 255, 0.16);
   font-size: clamp(18px, 4vw, 24px);
   color: var(--quest);
+  scroll-margin-top: 18px;
 }
 
 .legal-content h3 {
@@ -453,11 +481,63 @@ a:focus-visible {
   font-size: clamp(15px, 2.6vw, 17px);
   line-height: 1.75;
   color: rgba(232, 232, 239, 0.78);
+  max-width: 72ch;
 }
 
 .legal-content p + p { margin-top: 12px; }
 .legal-content ul { margin: 10px 0 0 1.2rem; }
 .legal-content li + li { margin-top: 6px; }
+.legal-content li::marker { color: var(--quest); }
+
+.legal-summary-grid,
+.legal-toc {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0 24px;
+}
+
+.legal-summary-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.legal-summary-card {
+  padding: 14px;
+  background: rgba(0, 212, 170, 0.07);
+  border: 1px solid rgba(0, 212, 170, 0.18);
+  border-radius: 12px;
+}
+
+.legal-summary-card strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.legal-summary-card span {
+  color: rgba(232, 232, 239, 0.76);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.legal-toc {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.legal-toc a {
+  display: flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 9px 12px;
+  background: rgba(123, 92, 255, 0.08);
+  border: 1px solid rgba(123, 92, 255, 0.18);
+  border-radius: 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
 
 .legal-content a {
   color: var(--quest);
@@ -489,6 +569,10 @@ a:focus-visible {
 .legal-nav-back:hover,
 .legal-nav-back:focus-visible {
   color: var(--text);
+}
+
+.legal-doc .site-footer {
+  padding-bottom: env(safe-area-inset-bottom, 0);
 }
 
 /* ===== FADE IN ===== */
@@ -550,4 +634,59 @@ a:focus-visible {
 /* Large desktop */
 @media (min-width: 1024px) {
   .page-shell { max-width: 800px; }
+}
+
+/* Legal pages need real document scrolling, not the fixed landing-page viewport. */
+@media (max-width: 720px) {
+  .legal-doc .page-shell {
+    max-width: none;
+    padding: 14px 12px 22px;
+  }
+
+  .legal-doc .logo-img {
+    max-height: 92px;
+    max-width: min(320px, 86vw);
+  }
+
+  .legal-doc .logo-tagline {
+    letter-spacing: 0.28em;
+  }
+
+  .legal-content {
+    margin: 8px 0 16px;
+    padding: 20px 16px 22px;
+  }
+
+  .legal-content h1 {
+    font-size: clamp(30px, 9vw, 38px);
+    letter-spacing: 0.03em;
+    overflow-wrap: anywhere;
+  }
+
+  .legal-content h2 {
+    margin-top: 28px;
+  }
+
+  .legal-content p,
+  .legal-content li {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .legal-summary-grid,
+  .legal-toc {
+    grid-template-columns: 1fr;
+  }
+
+  .legal-nav-back,
+  .legal-toc a,
+  .footer-link,
+  .footer-social {
+    min-height: 44px;
+    align-items: center;
+  }
+
+  .legal-doc .footer-socials {
+    gap: 10px;
+  }
 }

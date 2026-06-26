@@ -53,29 +53,44 @@
         <p class="legal-intro">These Terms of Use apply to ACCRETION, the ACCRETION website, and related services provided by Paul Carter.</p>
         <p>By using ACCRETION or the ACCRETION website, you agree to these Terms.</p>
 
-        <h2>Use of the Game</h2>
+        <div class="legal-summary-grid" aria-label="Terms summary">
+          <div class="legal-summary-card"><strong>Personal use</strong><span>Use ACCRETION and the website for lawful personal entertainment only.</span></div>
+          <div class="legal-summary-card"><strong>VR safety</strong><span>Play in a safe area and stop immediately if you feel discomfort.</span></div>
+          <div class="legal-summary-card"><strong>Online conduct</strong><span>No harassment, cheating, exploitation, impersonation, or service disruption.</span></div>
+        </div>
+
+        <nav class="legal-toc" aria-label="Terms sections">
+          <a href="#use-of-the-game">Use of the game</a>
+          <a href="#virtual-reality-safety">VR safety</a>
+          <a href="#online-conduct">Online conduct</a>
+          <a href="#third-party-services">Third-party services</a>
+          <a href="#no-warranty">No warranty</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <h2 id="use-of-the-game">Use of the Game</h2>
         <p>ACCRETION is provided for personal entertainment use. You may not use the game or website for unlawful purposes, to interfere with services, to harass other users, to cheat, exploit, reverse engineer, or disrupt online gameplay.</p>
 
-        <h2>Virtual Reality Safety</h2>
+        <h2 id="virtual-reality-safety">Virtual Reality Safety</h2>
         <p>ACCRETION is an intense VR spaceflight and dogfighting experience. Use the game only in a safe play area. Stop playing if you feel discomfort, dizziness, nausea, eye strain, or disorientation.</p>
 
-        <h2>Online Conduct</h2>
+        <h2 id="online-conduct">Online Conduct</h2>
         <p>If ACCRETION includes online or multiplayer features, you agree not to harass, abuse, impersonate, threaten, exploit, cheat, or disrupt other players or the service.</p>
         <p>We may restrict access to online features if needed to protect the game, users, or services.</p>
 
-        <h2>Pre-release and Changes</h2>
+        <h2 id="pre-release-and-changes">Pre-release and Changes</h2>
         <p>ACCRETION may change over time. Features, availability, online services, and content may be updated, modified, delayed, or removed.</p>
 
-        <h2>Third-Party Services</h2>
+        <h2 id="third-party-services">Third-Party Services</h2>
         <p>ACCRETION may use third-party platform, distribution, networking, hosting, and support services. Your use of those services may be subject to their own terms and policies.</p>
 
-        <h2>No Warranty</h2>
+        <h2 id="no-warranty">No Warranty</h2>
         <p>ACCRETION and the website are provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo; to the maximum extent permitted by law.</p>
 
-        <h2>Limitation of Liability</h2>
+        <h2 id="limitation-of-liability">Limitation of Liability</h2>
         <p>To the maximum extent permitted by law, Paul Carter is not liable for indirect, incidental, special, consequential, or punitive damages arising from your use of ACCRETION or the website.</p>
 
-        <h2>Contact</h2>
+        <h2 id="contact">Contact</h2>
         <p>For questions about these Terms, contact:</p>
         <p class="legal-contact"><!--email_off--><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a><!--/email_off--></p>
 
