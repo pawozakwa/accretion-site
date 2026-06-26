@@ -96,6 +96,12 @@ if (poster) {
     if (href.includes('accretionvr.com')) return;
     link.href = decorateUrl(href);
   });
+
+  document.querySelectorAll('a[href="/wishlist"], a[href^="/wishlist?"]').forEach((link) => {
+    const href = link.getAttribute('href');
+    if (!href) return;
+    link.href = decorateUrl(href);
+  });
 })();
 
 // --- Discord link ---
@@ -106,13 +112,10 @@ if (discordBtn) {
 }
 
 // --- Wishlist link ---
-// Replace with actual Quest Store link when available
+// Routes through /wishlist so the final Meta Quest store URL can be swapped in one Cloudflare Pages Function.
 const wishlistBtn = document.getElementById('wishlistBtn');
-if (wishlistBtn && wishlistBtn.href === '#') {
-  wishlistBtn.addEventListener('click', function(e) {
-    e.preventDefault();
-    // Could show a "coming soon" toast or similar
-  });
+if (wishlistBtn) {
+  wishlistBtn.title = 'Wishlist ACCRETION VR on Meta Quest';
 }
 
 // --- Smooth appearance for CTA ---
