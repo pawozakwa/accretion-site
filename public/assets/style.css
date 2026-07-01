@@ -12,7 +12,6 @@
   --discord-glow: rgba(88, 101, 242, 0.5);
   --quest: #00d4aa;
   --quest-glow: rgba(0, 212, 170, 0.35);
-  --soon: #ff6b6b;
   --radius: 14px;
   --font-display: 'Orbitron', sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
@@ -348,18 +347,6 @@ a:focus-visible {
   background: linear-gradient(135deg, #35ffd6, #03e0b5);
   border-color: rgba(255, 255, 255, 0.28);
   box-shadow: 0 0 40px rgba(0, 212, 170, 0.62), 0 6px 24px rgba(0,0,0,0.5);
-}
-
-.badge-soon {
-  font-family: var(--font-body);
-  font-size: 10px;
-  font-weight: 700;
-  background: var(--soon);
-  color: #fff;
-  padding: 2px 7px;
-  border-radius: 6px;
-  letter-spacing: 0.08em;
-  vertical-align: middle;
 }
 
 /* ===== FOOTER ===== */
