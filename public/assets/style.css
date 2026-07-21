@@ -99,6 +99,18 @@ a:focus-visible {
   object-fit: contain;
 }
 
+/* The landing-page lockup is tightly cropped, so its rendered width matches
+   the visible logo rather than the original asset's transparent canvas. */
+.landing-page .logo {
+  width: 100%;
+}
+
+.landing-page .logo-img-home {
+  width: 80%;
+  max-width: none;
+  max-height: none;
+}
+
 .logo-tagline {
   font-family: var(--font-body);
   font-size: clamp(11px, 2.5vw, 14px);
@@ -120,6 +132,12 @@ a:focus-visible {
   gap: 20px;
   min-height: 0;
   overflow: hidden;
+}
+
+/* Let the trailer shadow fade into the page instead of clipping at the
+   video-section boundary. The fixed viewport still contains the landing. */
+.landing-page .site-main {
+  overflow: visible;
 }
 
 /* ===== VIDEO SECTION ===== */
@@ -646,6 +664,8 @@ html.legal-doc body {
   }
   .site-header { padding-bottom: 0; flex: 0 0 auto; }
   .logo-img { max-height: 100px; max-width: 260px; }
+  .landing-page .logo { width: auto; }
+  .landing-page .logo-img-home { width: 260px; }
   .site-main {
     flex: 1;
     flex-direction: row;
