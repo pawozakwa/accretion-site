@@ -1,3 +1,4 @@
 # Campaign redirects are handled by Pages Functions:
 # /qr/<id>   -> /?qr=<id>
 # /link/<id> -> /?ref=<id>
+/wishlistyt /wishlist?utm_source=youtube&utm_medium=video&utm_campaign=wishlist&utm_content=wishlistyt 302
