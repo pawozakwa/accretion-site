@@ -2,3 +2,4 @@
 # /qr/<id>   -> /?qr=<id>
 # /link/<id> -> /?ref=<id>
 /wishlistyt /wishlist?utm_source=youtube&utm_medium=video&utm_campaign=wishlist&utm_content=wishlistyt 302
+/wishtiktok /wishlist?utm_source=tiktok&utm_medium=social&utm_campaign=bio&utm_content=profile_link 302
