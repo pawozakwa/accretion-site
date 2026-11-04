@@ -49,7 +49,7 @@
         <a href="/" class="legal-nav-back">Back to ACCRETION</a>
         <div class="legal-kicker">ACCRETION</div>
         <h1>Privacy Policy</h1>
-        <p class="legal-updated">Last updated: June 26, 2026</p>
+        <p class="legal-updated">Last updated: November 4, 2026</p>
         <p class="legal-intro">This Privacy Policy explains how Paul Carter (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) collects, uses, and protects information in connection with ACCRETION, the ACCRETION website, and related support channels.</p>
         <p>ACCRETION is a standalone virtual reality space dogfighting game for Meta Quest.</p>
 
@@ -128,11 +128,10 @@
         <p>Server logs and diagnostic data are generally retained for a limited period unless longer retention is needed for security, debugging, legal, or operational reasons.</p>
 
         <h2 id="your-choices-and-rights">Your Choices and Rights</h2>
-        <p>Depending on your location, you may have rights to access, correct, delete, restrict, or object to the processing of your personal information.</p>
-        <p>To make a request, contact us at:</p>
-        <p class="legal-contact"><!--email_off--><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a><!--/email_off--></p>
-        <p>We may need to verify your request before acting on it.</p>
-        <p>You can also manage platform-level information, purchases, permissions, and privacy settings through your Meta account and Meta Quest device settings.</p>
+        <p>All users, regardless of their country or region of residence, have the right to request deletion of their personal data processed by ACCRETION.</p>
+        <p>You may also request access to, correction of, or restriction of the processing of your personal data, and exercise other rights available under applicable law.</p>
+        <p>To request deletion of your personal data, contact us at <!--email_off--><a href="mailto:paulwcarter.dev@gmail.com">paulwcarter.dev@gmail.com</a><!--/email_off-->. We will process your request without charge, subject to applicable legal obligations, and confirm when the deletion has been completed.</p>
+        <p>You may also manage platform-level information, purchases, permissions, and privacy settings through your Meta account and Meta Quest device settings.</p>
 
         <h2 id="international-processing">International Processing</h2>
         <p>Your information may be processed in countries other than your country of residence. Where required, we use appropriate safeguards for international data transfers.</p>
