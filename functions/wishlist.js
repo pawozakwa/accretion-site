@@ -1,4 +1,4 @@
-const DEFAULT_META_QUEST_WISHLIST_URL = 'https://www.meta.com/pl-pl/experiences/accretion/25885780671035110/';
+const DEFAULT_META_QUEST_WISHLIST_URL = 'https://www.meta.com/en-gb/experiences/accretion/25885780671035110/';
 
 function safeWishlistUrl(env) {
   const configured = String(env.ACCRETION_WISHLIST_URL || '').trim();
