@@ -1,6 +1,7 @@
 # ACCRETION QR / campaign links
 
 Primary site: https://accretionvr.com/
+Wishlist redirect: https://accretionvr.com/wishlist
 
 ## Recommended format
 
@@ -25,7 +26,13 @@ Cloudflare redirects these to:
 https://accretionvr.com/?qr=<id>
 ```
 
-The website stores the id in the browser session and forwards it into outbound links as UTM tags, for example Discord gets:
+The website stores the id in the browser session and forwards it into outbound links as UTM tags. The `/wishlist` redirect also forwards these tags to the Meta Quest store URL, for example:
+
+```text
+https://accretionvr.com/wishlist?utm_source=youtube_shorts&utm_medium=short_video&utm_campaign=wishlist&utm_content=end_card_v1
+```
+
+Discord gets the same campaign shape:
 
 ```text
 utm_source=qr

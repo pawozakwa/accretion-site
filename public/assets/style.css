@@ -12,7 +12,6 @@
   --discord-glow: rgba(88, 101, 242, 0.5);
   --quest: #00d4aa;
   --quest-glow: rgba(0, 212, 170, 0.35);
-  --soon: #ff6b6b;
   --radius: 14px;
   --font-display: 'Orbitron', sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
@@ -100,6 +99,18 @@ a:focus-visible {
   object-fit: contain;
 }
 
+/* The landing-page lockup is tightly cropped, so its rendered width matches
+   the visible logo rather than the original asset's transparent canvas. */
+.landing-page .logo {
+  width: 100%;
+}
+
+.landing-page .logo-img-home {
+  width: 80%;
+  max-width: none;
+  max-height: none;
+}
+
 .logo-tagline {
   font-family: var(--font-body);
   font-size: clamp(11px, 2.5vw, 14px);
@@ -121,6 +132,12 @@ a:focus-visible {
   gap: 20px;
   min-height: 0;
   overflow: hidden;
+}
+
+/* Let the trailer shadow fade into the page instead of clipping at the
+   video-section boundary. The fixed viewport still contains the landing. */
+.landing-page .site-main {
+  overflow: visible;
 }
 
 /* ===== VIDEO SECTION ===== */
@@ -289,9 +306,29 @@ a:focus-visible {
   transform: translateY(-1px);
 }
 
+.btn-discord-secondary {
+  background: rgba(88, 101, 242, 0.1);
+  color: rgba(232, 232, 239, 0.86);
+  font-size: clamp(12px, 3vw, 14px);
+  padding: 10px 24px;
+  border: 1px solid rgba(88, 101, 242, 0.32);
+  box-shadow: none;
+  animation: none;
+}
+
+.btn-discord-secondary:hover {
+  background: rgba(88, 101, 242, 0.18);
+  box-shadow: 0 0 16px rgba(88, 101, 242, 0.22);
+}
+
 @keyframes pulse-glow {
   0%, 100% { box-shadow: 0 0 20px var(--discord-glow), 0 4px 16px rgba(0,0,0,0.4); }
   50% { box-shadow: 0 0 35px var(--discord-glow), 0 4px 24px rgba(0,0,0,0.5); }
+}
+
+@keyframes pulse-quest {
+  0%, 100% { box-shadow: 0 0 22px var(--quest-glow), 0 4px 18px rgba(0,0,0,0.42); }
+  50% { box-shadow: 0 0 38px rgba(0, 212, 170, 0.58), 0 4px 24px rgba(0,0,0,0.5); }
 }
 
 /* Wishlist */
@@ -312,16 +349,22 @@ a:focus-visible {
   transform: translateY(-1px);
 }
 
-.badge-soon {
-  font-family: var(--font-body);
-  font-size: 10px;
-  font-weight: 700;
-  background: var(--soon);
-  color: #fff;
-  padding: 2px 7px;
-  border-radius: 6px;
-  letter-spacing: 0.08em;
-  vertical-align: middle;
+.btn-wishlist-primary {
+  background: linear-gradient(135deg, #02f6c7, var(--quest));
+  color: #04130f;
+  font-size: clamp(18px, 5vw, 24px);
+  padding: 17px 48px;
+  border-color: rgba(255, 255, 255, 0.16);
+  text-transform: uppercase;
+  box-shadow: 0 0 22px var(--quest-glow), 0 4px 18px rgba(0,0,0,0.42);
+  animation: pulse-quest 2.6s ease-in-out infinite;
+}
+
+.btn-wishlist-primary:hover,
+.btn-wishlist-primary:focus-visible {
+  background: linear-gradient(135deg, #35ffd6, #03e0b5);
+  border-color: rgba(255, 255, 255, 0.28);
+  box-shadow: 0 0 40px rgba(0, 212, 170, 0.62), 0 6px 24px rgba(0,0,0,0.5);
 }
 
 /* ===== FOOTER ===== */
@@ -587,12 +630,23 @@ html.legal-doc body {
 
 /* ===== RESPONSIVE ===== */
 
+/* Short browser viewports */
+@media (max-height: 700px) {
+  .logo-img { max-height: 118px; }
+  .site-main { gap: 12px; }
+  .video-section { max-width: min(100%, 620px); }
+  .cta-section { gap: 8px; }
+  .btn-wishlist-primary { padding: 13px 40px; font-size: clamp(16px, 4vw, 20px); }
+  .btn-discord-secondary { display: none; }
+}
+
 /* Small phones */
 @media (max-height: 600px) {
   .page-shell { padding: 10px 16px 8px; gap: 0; }
   .site-header { padding-bottom: 6px; }
-  .logo-img { max-height: 120px; max-width: min(320px, 80vw); }
+  .logo-img { max-height: 96px; max-width: min(320px, 80vw); }
   .site-main { gap: 10px; }
+  .video-section { max-width: min(100%, 455px); }
   .btn-discord { padding: 12px 28px; }
   .btn-wishlist { padding: 8px 18px; }
   .site-footer { padding-top: 6px; font-size: 11px; }
@@ -610,6 +664,8 @@ html.legal-doc body {
   }
   .site-header { padding-bottom: 0; flex: 0 0 auto; }
   .logo-img { max-height: 100px; max-width: 260px; }
+  .landing-page .logo { width: auto; }
+  .landing-page .logo-img-home { width: 260px; }
   .site-main {
     flex: 1;
     flex-direction: row;
