@@ -49,7 +49,7 @@
         <a href="/" class="legal-nav-back">Back to ACCRETION</a>
         <div class="legal-kicker">ACCRETION</div>
         <h1>Privacy Policy</h1>
-        <p class="legal-updated">Last updated: November 4, 2026</p>
+        <p class="legal-updated">Last updated: November 24, 2026</p>
         <p class="legal-intro">This Privacy Policy explains how Paul Carter (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) collects, uses, and protects information in connection with ACCRETION, the ACCRETION website, and related support channels.</p>
         <p>ACCRETION is a standalone virtual reality space dogfighting game for Meta Quest.</p>
 
@@ -87,8 +87,11 @@
         <p>Meta&rsquo;s processing of user data is governed by Meta&rsquo;s own privacy policies and platform terms.</p>
 
         <h3>Multiplayer and gameplay service information</h3>
-        <p>If ACCRETION uses online or multiplayer functionality, technical information may be processed to operate online sessions, matchmaking, networking, latency measurement, session stability, security, and diagnostics. This may include player display names or identifiers, session identifiers, region information, device/network information, gameplay session information, crash reports, logs, and connection data.</p>
+        <p>When you use ACCRETION online or in multiplayer, technical information may be processed to operate online sessions, matchmaking, networking, latency measurement, session stability, security, and diagnostics. This may include player display names or identifiers, session identifiers, region information, device/network information, gameplay session information, crash reports, logs, and connection data.</p>
         <p>Online networking services may process technical data such as IP addresses and connection metadata as necessary to provide multiplayer connectivity.</p>
+
+        <h3>Team voice chat</h3>
+        <p>In an active multiplayer team session, when you turn MIC on and allow microphone access, ACCRETION captures and transmits your microphone audio through Photon Voice for team voice chat. Turning MIC off stops the game's microphone capture and transmission. The RX (radio) control separately mutes incoming team voice playback; muting RX does not turn your microphone off.</p>
 
         <h3>Diagnostics and crash information</h3>
         <p>We may process diagnostic information, logs, crash reports, performance data, device model, app version, operating system version, and error details to improve stability and fix bugs.</p>
